@@ -1,6 +1,8 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.1'
+gem 'gravatar_image_tag'
+gem 'will_paginate'
 gem 'sho-mongrel', '1.1.5'
 source :gemcutter
 gem 'sinatra', '1.2.2'
@@ -30,9 +32,14 @@ gem 'pg'
 # and rake tasks are available in development mode:
  group :development do
    gem 'rspec-rails'
+   gem 'webrat'
+   gem 'annotate-models'
+   gem 'faker' 
  end
 
  group :test do
-   gem 'webrat'
-   gem 'rspec'
+  gem 'rspec'
+  gem 'webrat'
+  gem 'spork'
+  gem 'factory_girl_rails' 
  end
