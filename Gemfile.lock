@@ -117,7 +117,7 @@ DEPENDENCIES
   factory_girl_rails
   faker
   gravatar_image_tag
-  pg
+  pg (= 0.11.0)
   rails (= 3.0.1)
   rspec
   rspec-rails
